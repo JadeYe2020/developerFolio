@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -23,7 +23,7 @@ const greeting = {
   username: "Jade Ye",
   title: "Hi all, I'm Jade",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 who is eager to build some cool and value-added applications."
+    "A passionate Full Stack Software Developer 🚀 who enjoys learning new things and is eager to build some brilliant and value-added applications."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1JkXrpi34-8KqYh7JHiWbMEJ34IwtA9mD/view?usp=sharing", // Set to empty to hide the button
@@ -49,15 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE AS MANY TECHNOLOGIES AS THEY CAN",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Web applications (HTML5, CSS, PHP, JavaScript, APIs etc.)"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Build applications using Object-oriented programming (i.e., C# and Java)"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -88,10 +88,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -100,22 +100,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
