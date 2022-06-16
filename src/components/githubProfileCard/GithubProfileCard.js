@@ -5,12 +5,13 @@ import {contactInfo} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
-export default function GithubProfileCard({prof}) {
-  if (prof.isHireable) {
-    prof.hireable = "Yes";
-  } else {
-    prof.hireable = "No";
-  }
+export default function GithubProfileCard({prof}) {  
+  prof.hireable = "Yes"; // Jade: hard coded here b/c the GitHub job profile has been deprecated
+  // if (prof.isHireable) {
+  //   prof.hireable = "Yes";
+  // } else {
+  //   prof.hireable = "No";
+  // }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
