@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 who enjoys learning new things and is eager to build some brilliant and value-added applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1JkXrpi34-8KqYh7JHiWbMEJ34IwtA9mD/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1vOt-xNLerYnwHrIKpWG_CSGgtg1_X5qM/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -174,30 +174,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer (Work term)",
+      company: "Project BlackBird (https://bbird.org/)",
+      companylogo: require("./assets/images/blackbird_production.png"),
+      date: "Apr 2022 – May 2022",
+      desc: "Built a functional application (using .Net and C#) from scratch as a solution to keeping track of all advisory and academic notes made on the students by their faculty advisor and their instructors.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Gathered product requirements, sufficiently discussed the details with the client and therefore successfully avoided project deviations.",
+        "Designed some features that provide good UX. For example, the app can automatically append the selected dropdown list item content into the textbox so the user can modify the text on top of it and spend less time typing.",
+        "Helped the junior data engineer with the SQL database design and communicated to him the stored procedures required.",
+        "Compiled Use Cases documentation.",
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    },    
   ]
 };
 
