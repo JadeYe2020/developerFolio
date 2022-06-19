@@ -184,6 +184,15 @@ const workExperiences = {
         "Designed some features that provide good UX. For example, the app can automatically append the selected dropdown list item content into the textbox so the user can modify the text on top of it and spend less time typing.",
         "Helped the junior data engineer with the SQL database design and communicated to him the stored procedures required.",
         "Compiled Use Cases documentation.",
+      ],
+
+      // jade: copied from big projects section
+      footerLink: [
+        {
+          name: "See Demo",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
       ]
     },    
   ]

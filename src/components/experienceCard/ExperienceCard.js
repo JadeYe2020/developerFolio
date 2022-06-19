@@ -30,6 +30,15 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
+  // jade: copied from big projects section
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
@@ -79,6 +88,26 @@ export default function ExperienceCard({cardInfo, isDark}) {
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
       </div>
+      
+    {/* jade: copied from big projects section */}
+      {cardInfo.footerLink ? (
+        <div className="experience-card-footer">
+          {cardInfo.footerLink.map((link, i) => {
+            return (
+              <span
+                key={i}
+                className={
+                  isDark ? "dark-mode project-tag" : "project-tag"
+                }
+                onClick={() => openUrlInNewTab(link.url)}
+              >
+                {link.name}
+              </span>
+            );
+          })}
+        </div>
+      ) : null}
+
     </div>
   );
 }
