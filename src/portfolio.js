@@ -187,13 +187,13 @@ const workExperiences = {
       ],
 
       // jade: copied from big projects section
-      footerLink: [
-        {
-          name: "See Demo",
-          url: "https://JadeYe2020.github.io/#experience"
-        }
-        //  you can add extra buttons here.
-      ]
+      // footerLink: [
+      //   {
+      //     name: "See Demo",
+      //     url: "https://JadeYe2020.github.io/#experience"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     },    
   ]
 };
