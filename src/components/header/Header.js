@@ -75,6 +75,7 @@ function Header() {
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
+            Dark/Light mode
               <ToggleSwitch />
             </a>
           </li>
