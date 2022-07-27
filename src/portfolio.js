@@ -25,6 +25,12 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 who enjoys learning new things and is eager to build some brilliant and value-added applications."
   ),
+  // jade: add a new property
+  strengths: [
+    "Exceptional learning skills | Adapt fast | Strong self-motivation",
+    "Keen attention to detail | Organizational skills",
+    "Easy-to-approach | Positive attitudes | Effective Communication | Reliability"
+  ],
   resumeLink:
     "https://drive.google.com/file/d/1vOt-xNLerYnwHrIKpWG_CSGgtg1_X5qM/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -130,7 +136,7 @@ const educationInfo = {
       logo: require("./assets/images/nscc-logo.jpg"),
       subHeader: "Diploma in IT Programming with Honours",
       duration: "September 2020 - May 2022",
-      desc: "Graduated with honours. Took courses about Took courses about Software Engineering, Web Programming, Object Oriented Programming, Transactional Database etc.",
+      desc: "Graduated with honours. Took courses about Software Engineering, Web Programming, Object Oriented Programming, Transactional Database etc.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"

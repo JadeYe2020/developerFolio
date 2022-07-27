@@ -36,10 +36,14 @@ export default function Greeting() {
                 }
               >
                 {greeting.subTitle}
+                {/* add in unordered list to display strengths*/}
+                <ul>
+                  {greeting.strengths.map(str => <li><em>{str}</em></li>)}
+                </ul>
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                {/* <Button text="Contact me" href="#contact" /> */}
                 {greeting.resumeLink && (
                   <Button
                     text="See my resume"
