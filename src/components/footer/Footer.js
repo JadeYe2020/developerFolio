@@ -18,6 +18,13 @@ export default function Footer() {
             developerFolio
           </a>
         </p>
+        {/* jade: add attribution for new lottie landingPerson */}
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          landingPerson lottie by {" "}
+          <a href="https://lottiefiles.com/113856-vision">
+            Irfan Munawar 2D
+          </a>
+        </p>
       </div>
     </Fade>
   );
