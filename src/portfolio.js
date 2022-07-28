@@ -27,9 +27,9 @@ const greeting = {
   ),
   // jade: add a new property
   strengths: [
-    "Exceptional learning skills | Adapt fast | Strong self-motivation",
-    "Keen attention to detail | Organizational skills",
-    "Easy-to-approach | Positive attitudes | Effective Communication | Reliability"
+    emoji("🌟 Exceptional learning skills | Adapt fast | Strong self-motivation"),
+    emoji("🌟 Keen attention to detail | Organizational skills"),
+    emoji("🌟 Easy-to-approach | Positive attitudes | Effective Communication | Reliability")
   ],
   resumeLink:
     "https://drive.google.com/file/d/1vOt-xNLerYnwHrIKpWG_CSGgtg1_X5qM/view?usp=sharing", // Set to empty to hide the button

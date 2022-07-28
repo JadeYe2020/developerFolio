@@ -37,9 +37,9 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
                 {/* add in unordered list to display strengths*/}
-                <ul>
-                  {greeting.strengths.map(str => <li><em>{str}</em></li>)}
-                </ul>
+                <div>
+                  {greeting.strengths.map(str => <div><em>{str}</em></div>)}
+                </div>
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
