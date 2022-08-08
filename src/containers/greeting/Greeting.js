@@ -28,7 +28,7 @@ export default function Greeting() {
                 {greeting.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
-              <p
+              <div
                 className={
                   isDark
                     ? "dark-mode greeting-text-p"
@@ -38,9 +38,9 @@ export default function Greeting() {
                 {greeting.subTitle}
                 {/* add in unordered list to display strengths*/}
                 <div>
-                  {greeting.strengths.map(str => <div><em>{str}</em></div>)}
+                  {greeting.strengths.map(str => <div key={str}><em>{str}</em></div>)}
                 </div>
-              </p>
+              </div>
               <SocialMedia />
               <div className="button-greeting-div">
                 {/* <Button text="Contact me" href="#contact" /> */}
